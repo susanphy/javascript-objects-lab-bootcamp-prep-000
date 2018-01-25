@@ -1,12 +1,9 @@
 var recipes = {breakfast: 'oatmeal'};
 
-function updateObjectWithKeyAndValue(object, key, value){
-;
-var obj= {key:'value'};
 
-var newObj = Object.assign({}, object, { [key]: value });
-   return newObj ;
-}
+function updateObjectWithKeyAndValue(object, key, value){
+   return object.assign({}, object, { prop2: [value] });
+  }
 
 
 
