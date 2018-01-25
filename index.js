@@ -16,3 +16,6 @@ var obj= {key:'value'};
   delete newObj.key;
   return newObj;
 }
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  return object= {key:'value'}
+}
