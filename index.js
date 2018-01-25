@@ -3,8 +3,8 @@ var recipes = {breakfast: 'oatmeal'};
 function updateObjectWithKeyAndValue(object, key, value){
 ;
 object[key] = value;
-Object.assign({}, object, { [key]: value });
-   return object ;
+var newObj = Object.assign({}, object, { [key]: value });
+   return newObj ;
 }
 
 
