@@ -10,6 +10,7 @@ Object.assign({}, object, { [key]: value });
 
 
 function deleteFromObjectByKey(object, key) {
+obj[key] = value;
   var newObj = Object.assign([], object)
   delete newObj.key
   return newObj
