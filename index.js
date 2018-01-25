@@ -1,2 +1,2 @@
-var recipes = {key: `values`};
+var recipes = {breakfast: `oatmeal`};
 }
