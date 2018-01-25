@@ -1,3 +1,2 @@
-function recipes(key,value){
-  return recipes;
+var recipes = {key: `values`};
 }
