@@ -18,5 +18,5 @@ var obj= {key:'value'};
 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
    object[key]=value;
-  return obj;
+  return object;
 }
